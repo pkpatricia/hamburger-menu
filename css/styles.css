@@ -1,0 +1,163 @@
+h1 {
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Signika', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF00FF;
+}
+
+a:active {
+    text-decoration: none;
+    color: #FF00FF;
+}
+
+.whitepic {
+	color: white;
+	background-color: gray;
+	padding: 35px;
+	margin: 10px;
+	border-radius: 10px;
+	width: 25%;
+	position: relative;
+	text-align: center;
+}
+
+.fa {
+	font-size: 5em;
+}
+
+.fa.fa-envelope-o, .fa.fa-file-text {
+	font-size: 1em;
+}
+
+.bgimg {
+	background: url("../images/roses_medium.jpg");
+	background-size: cover;
+	width: 100%;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.centertext {
+	text-align: center;
+	
+}
+
+.center {
+  margin: auto;
+  padding: 3%;
+  background-color: #000;
+  border-radius: 10px;
+  height: 385px;
+  width: 385px;
+}
+
+.statement {
+  background-color: hotpink;
+  padding: 3%;
+  border-radius: 320px;
+  height: 360px;
+  width: 360px;
+  line-height: 120px;
+  color: #fff;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.text {
+  display: inline-block;
+  line-height: 1em;
+  margin: auto;
+  padding: 47px 5px;
+}
+
+.third {
+	width: 100%;
+	float: none;
+	margin-bottom: 20px;
+}
+
+.navigation {
+	margin: 0;
+	padding: 0;
+}	
+
+.navigation li {
+	display: block;
+	list-style: none;
+ 	margin: 5px 5px;
+	width: 100%;
+}
+
+.navigation li a {
+	padding: 10px;
+}
+
+.double {
+	width: 100%;
+	float: none;
+	margin-bottom: 20px;
+}
+
+footer {
+		clear: both;
+}
+
+/****  Media Query  
+			 starts with a screen that is at least 600 pixels wide.
+****/
+
+@media (min-width: 600px) {
+	
+	.double {
+		width: 50%;
+		float: left;
+}
+	
+	.third {
+		width: 33%;
+		float: left;
+}
+	
+	.navigation li {
+		display: inline;
+		width: auto;
+}
+
+	.center {
+       width: 400px;
+}
+
+	.statement {
+  	  border-radius: 500px;
+  	  height: 380px;
+  	  width: 380px;
+  	  line-height: 20px;
+  	  padding: 9px;
+}
+
+
+}
